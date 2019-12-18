@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Register User</p>
+    
+    <form asp-action="AddUser" method="post">
+        <input name="Name" type="text" />
+        <input name="Email" type="text" />
+        <input name="Password" type="password" />
+        <input id="Submit1" type="submit" value="submit" />
+    </form>
+</div>
